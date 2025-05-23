@@ -24,14 +24,30 @@
     $product = $getal1 * $getal2;
     $quotient = $getal1 / $getal2;
 ?>
-    <table style="width:50%">
+    <table style="width:25%">
         <tr>
             <th>Bewerking</th>
             <th>Resultaat</th>
         </tr>
+
         <tr>
             <td>Som</td>
-            <td></td>
+            <td><?php echo $som ?></td>
+        </tr>
+
+        <tr>
+            <td>Verschil</td>
+            <td><?php echo $verschil ?></td>
+        </tr>
+
+        <tr>
+            <td>Product</td>
+            <td><?php echo $product ?></rd>
+        </tr>
+
+        <tr>
+            <td>quotient</td>
+            <td><?php echo $quotient ?></rd>
         </tr>
     </table>  
 </body>
